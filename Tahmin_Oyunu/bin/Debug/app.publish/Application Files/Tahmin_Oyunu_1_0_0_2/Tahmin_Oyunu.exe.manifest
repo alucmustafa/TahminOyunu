@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Tahmin_Oyunu.exe" version="1.0.0.2" publicKeyToken="8999bd7d48131d28" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Tahmin_Oyunu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Tahmin_Oyunu.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tahmin_Oyunu.exe" size="32224">
+      <assemblyIdentity name="Tahmin_Oyunu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kDgFFi6jf3Qqc+ExgYeL4sfvlMmW2S/GwNLTbU647L8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Tahmin_Oyunu.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-39QGPNV\Admin" issuerKeyHash="52a9008277479d9f6098b7b1b268571e318baaa0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RgjPsT1bEk3ANUUlTGYByFXS51QMrLcVJJA1Bxc8xTc=</DigestValue></Reference></SignedInfo><SignatureValue>UXLsOUa+Kyfp099Zer2iDAqvdUsbt9GsKL1iipO5NX1Vqubs8GX3YJd5ov5osBe6d2rPQcnCDIjleOesiATWqiY7uO6COOiw+Kp2dwjOtmjpbxPXaiR+O1/lzjbNETHn+cFjCU8j9TK3XCyUI4bTjDfUEAwsMLL5cZNnTSgT8sU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7rmhgK1PPOhWT7RuFWFtXtEm4qbRvFmdUEaPru470VuKgHGeU04CVKu9VaugDhnvh6wItGaznBUCBTS0xJoyqT8aJ97tnDvlkE/kBLbI1SQNGh7BZKul6xywq++iihXpRbcAh2Xj/ooSf92mfb9xBHFpIC83Sfkcb323DSx4Clk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="37c53c170735902415b7ac0c54e7d255c801664c254535c04d125b3db1cf0846" Description="" Url=""><as:assemblyIdentity name="Tahmin_Oyunu.exe" version="1.0.0.2" publicKeyToken="8999bd7d48131d28" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-39QGPNV\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Qmr05tGohyITA1k91iBCRYMENF04QDrM/C32rzh/By4=</DigestValue></Reference></SignedInfo><SignatureValue>HTJBT6B6pMZHoVy/Q4j8Fb+yeVNUxTXn99LwjjTBJ1F+OS1HYWzpHo5thMl++EEBFinAe1DU8/GL8ylP0U/sgoyfUtVDfaXjW6TCoEgeJTuFG9AdbA7XGzzpwzl1yrWua/f7OQ/EG7nty0P8xsDzKY7iV3Z3mGgUgN3f9dFFl/M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7rmhgK1PPOhWT7RuFWFtXtEm4qbRvFmdUEaPru470VuKgHGeU04CVKu9VaugDhnvh6wItGaznBUCBTS0xJoyqT8aJ97tnDvlkE/kBLbI1SQNGh7BZKul6xywq++iihXpRbcAh2Xj/ooSf92mfb9xBHFpIC83Sfkcb323DSx4Clk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQLQePSb20VoBNP6MxGs91kDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMAOQBRAEcAUABOAFYAXABBAGQAbQBpAG4wHhcNMjMxMDExMTExMTQ3WhcNMjQxMDEwMTcxMTQ3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMAOQBRAEcAUABOAFYAXABBAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO65oYCtTzzoVk+0bhVhbV7RJuKm0bxZnVBGj67uO9FbioBxnlNOAlSrvVWroA4Z74esCLRms5wVAgU0tMSaMqk/Gife7Zw75ZBP5AS2yNUkDRoewWSrpescsKvvoooV6UW3AIdl4/6KEn/dpn2/cQRxaSAvN0n5HG99tw0seApZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEArbT9f2sIFFrwmon/eeBEgExyEwsIWQ1SQvh3WR0ZcRl7jCVmjV1NdOfnT2iYCVtfl9ynqByPjJHdg1nTYTqu7RLYI6+wh+bTEdP31evdncp8s0UXBIWWAe5H8mGZm5PvaxwCMCfvW4lE0rwEROMuXxepIiFQy7ofeEzuHvzmUPc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
