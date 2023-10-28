@@ -15,9 +15,10 @@ namespace Tahmin_Oyunu
         public bool controlPc = false;
         public bool draw = false;
         public int GameNumber { get; set; }
-        Random rnd = new Random();
         public int returnPersonNumber;
         public int returnPcNumber;
+        
+        Random rnd = new Random();
         public GameControl()
         {
             GameNumber = rnd.Next(1, 30);
